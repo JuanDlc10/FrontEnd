@@ -1,0 +1,27 @@
+.pokemon-card {
+  margin-bottom: 20px;
+  background-color: rgba(128, 0, 128, 0.5); 
+  border-radius: 10px;
+  padding: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.pokemon-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+.pokemon-img {
+  width: 100px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.fondo {
+  background-image: url(https://wallpapercosmos.com/w/full/8/3/b/1193776-3840x2160-desktop-4k-gengar-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw; 
+  height: 100%; 
+}
